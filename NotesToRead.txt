@@ -1,0 +1,17 @@
+As I am unsure I will get the chance to get your opinion and suggestions on this face to face, I still wanted to outline what I did.
+I tried! That's the long story short. I didn't want to keep hold of this for longer than a couple of days, but I still tried a bit every evening and I got to the point where I would have normally asked for help. 
+Or copied the entire thing from somewhere else, cause there is all sorts online. 
+To keep it brief:
+- I did edit the html and added a css file, even if it was not mentioned in the read me but it wasn't either stated NOT to
+- the grey overlay is another div that goes on top and covers the whole page, which I realise it becames an additional element/pain when you want to inspect what's underneath
+- the selection area from mouse dragging is mainly copied, I vaguely tried to do from scratch but after an hour I thought it was better taking the shortcut
+- I wanted to originally observe every element in the page (with the Observer api suggested) while the mouse was down and within this see if the coordinates of these element where inside the selection area or 
+	perhaps finding a clever way to make the isIntersecting to tell me if the intersection was with my selection area and not with the root element. Which you can gather it didn't work 
+- then the other approach was to use the coordinates of the selection area and get all elements in this range. Which I have again overestimated, silly me thinking that JS was smart and straightforward!
+The code is full of comments and the bright red was only to make things noticable.
+
+I have to say thought that I got very hooked up and this is probably the most interesting tech test I got given, and very much outside of my comfort zone! which was fun and humiliating at the same time.
+
+I would appreciate if you point out where things went wrong and where could have been changed, if you could. 
+
+Thank you
